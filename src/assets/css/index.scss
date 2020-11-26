@@ -2,5 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+a,
+ins,
+s,
+u,
+del {
+  text-decoration: none
+}
+
+sup,
+sub {
+  vertical-align: baseline
+}
+html body {
   color: #fff;
 }
+.iconfont {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+// color: #fff   color:rgba(243, 230, 189, 1)

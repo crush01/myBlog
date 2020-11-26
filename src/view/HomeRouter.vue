@@ -48,6 +48,14 @@ export default {
         {
           title: '韶华追忆',
           path: '/memory'
+        },
+        {
+          title: '技术分享',
+          path: '/memory'
+        },
+        {
+          title: '好书推荐',
+          path: '/memory'
         }
       ],
       activePath: '/' // 默认活动菜单
@@ -87,6 +95,9 @@ export default {
       color: #fff;
       font-size: px2rem(50px);
       font-family: 'Courier New', Courier, monospace;
+      &:hover {
+        color: rgba(243, 230, 189, 1);
+      }
       span:last-child {
         font-size: px2rem(80px);
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -114,6 +125,9 @@ export default {
           border-right: unset;
           padding-right: 0;
           margin-right: 0;
+        }
+        &:hover {
+          color: rgba(243, 230, 189, 1);
         }
       }
     }
@@ -175,7 +189,7 @@ export default {
   }
   .blog-body {
     background: rgba(164, 169, 129, 1);
-    height: calc(100vh - 60px);
+    height: auto;
   }
 }
 </style>
